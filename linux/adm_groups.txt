@@ -1,0 +1,2 @@
+Add grupo = groupadd
+Remover grupo = groupdel

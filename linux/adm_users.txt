@@ -6,3 +6,4 @@ Especificar tempo que usuário pode acessar = add parametro -e e a data,  exempl
 Alterar usuário, informações = usermod e parametros
 Criar o usuário com senha encriptada = useradd -p $(openssl passwd -crypt <SENHA>)
 Add user a grupos = usermod -G <GRUPO1>,<GRUPO2>...,,<GRUPON>
+Remove usuário de um grupo = gpasswd  -d <USER> <GRUPO>
