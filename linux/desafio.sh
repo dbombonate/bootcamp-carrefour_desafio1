@@ -2,8 +2,6 @@
 
 echo "Criando diretórios......"
 
-su
-
 mkdir /publico /adm /ven /sec
 
 echo "Criando grupos.........."
