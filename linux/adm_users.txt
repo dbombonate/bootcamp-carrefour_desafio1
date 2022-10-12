@@ -1,0 +1,8 @@
+Criar novo user = useradd
+Remover user = userdel (parametro -f para forçar e -r para remover a pasta home)
+Especificar o Shell = add o parametro -s /bin/bash no comando useradd
+Especificar a senha do usuário = passwd <USUARIO>
+Especificar tempo que usuário pode acessar = add parametro -e e a data,  exemplo -e 15/10/2022
+Alterar usuário, informações = usermod e parametros
+Criar o usuário com senha encriptada = useradd -p $(openssl passwd -crypt <SENHA>)
+Add user a grupos = usermod -G <GRUPO1>,<GRUPO2>...,,<GRUPON>
