@@ -1,0 +1,24 @@
+Estrutura de Diretórios:
+
+/publico
+/adm
+/ven
+/sec
+
+Grupos:
+
+GRP_ADM         GRP_VEN         GRP_SEC
+
+Usuários:
+
+carlos          debora          josefina
+maria           sebastiana      amanda
+joao            roberto         rogerio
+
+Regras:
+
+1 - Dono dos Diretórios é o roberto
+2 - Todos terão permissão full dentro do diretório publico
+3 - Os usuários de cada grupo terão permissão total dentro
+    de seu diretório
+4 - Os usuários não tem permissão nenhuma em outros diretórios
